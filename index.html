@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jCabala</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/font-awesome/css/fontawesome.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand colored" href="#">jCabala</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbar"
+        aria-controls="navbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- END OF NAVBAR -->
+    <!-- HOME SECTION -->
+    <section id="home">
+      <div class="img-container mb-3">
+        <img class="round-img" src="./images/me.jpg" alt="" />
+      </div>
+      <div class="home-text-container p-3">
+        <h1 class="colored typing">Hi,</h1>
+        <p>
+          My name is Jakub Cabala. <br />
+          I am a <span class="colored">web developer</span> from Poland.
+          <br />
+          <br />Let's make something together!
+        </p>
+        <button>My work</button>
+      </div>
+    </section>
+
+    <svg
+      stle="width: 100vw;"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#444444"
+        fill-opacity="1"
+        d="M0,192L26.7,170.7C53.3,149,107,107,160,122.7C213.3,139,267,213,320,208C373.3,203,427,117,480,85.3C533.3,53,587,75,640,106.7C693.3,139,747,181,800,176C853.3,171,907,117,960,117.3C1013.3,117,1067,171,1120,192C1173.3,213,1227,203,1280,192C1333.3,181,1387,171,1413,165.3L1440,160L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"
+      ></path>
+    </svg>
+
+    <!-- END OF HOME -->
+    <!-- ABOUT SECTION -->
+    <section id="about" class="mx-auto mb-5">
+      <h1 class="text-center colored"><strong>About</strong></h1>
+      <div class="about-me">
+        <div class="trait d-flex">
+          <img style="height: 15rem" src="./images/creative.png" alt="" />
+          <span class="ml-2 mt-5">
+            <h3>Creative</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              aliquet mi urna, luctus congue eros pharetra a. Duis tempus luctus
+              blandit. Lorem ipsum dolor.
+            </p>
+          </span>
+        </div>
+        <div class="trait d-flex">
+          <span class="ml-2 mt-5">
+            <h3>Responsive</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              aliquet mi urna, luctus congue eros pharetra a. Duis tempus luctus
+              blandit. Lorem ipsum dolor.
+            </p>
+          </span>
+          <img style="height: 15rem" src="./images/mobile.png" alt="" />
+        </div>
+        <div class="trait d-flex">
+          <img style="height: 15rem" src="./images/fast.png" alt="" />
+          <span class="ml-2 mt-5">
+            <h3>Fast</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              aliquet mi urna, luctus congue eros pharetra a. Duis tempus luctus
+              blandit. Lorem ipsum dolor.
+            </p>
+          </span>
+        </div>
+      </div>
+      <div class="stack text-center colored">
+        <h2 class="mb-2">My skills:</h2>
+        <div class="stack-items d-flex flex-wrap">
+          <img class="stack-img mt-1 ml-1" src="./images/bootstrap.png" />
+          <img class="stack-img mt-1 ml-1" src="./images/react.png" />
+          <img class="stack-img mt-1 ml-1" src="./images/js.png" />
+          <img class="stack-img mt-1 ml-1" src="./images/jquery.png" />
+          <img class="stack-img mt-1 ml-1" src="./images/html.png" />
+          <img class="stack-img mt-1 ml-1" src="./images/css.png" />
+          <img class="stack-img mt-1 ml-1" src="./images/sass.png" />
+          <img class="stack-img mt-1 ml-1" src="./images/node.png" />
+          <img class="stack-img mt-1 ml-1" src="./images/php.png" />
+          <img class="stack-img mt-1 ml-1" src="./images/sql.png" />
+          <img class="stack-img mt-1 ml-1" src="./images/mongo.png" />
+          <img class="stack-img mt-1 ml-1" src="./images/git.png" />
+        </div>
+      </div>
+    </section>
+    <!-- END OF ABOUT SECTION -->
+    <!-- PORTFOLIO SECTION -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#444444"
+        fill-opacity="1"
+        d="M0,192L40,213.3C80,235,160,277,240,261.3C320,245,400,171,480,128C560,85,640,75,720,85.3C800,96,880,128,960,165.3C1040,203,1120,245,1200,261.3C1280,277,1360,267,1400,261.3L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+      ></path>
+    </svg>
+    <section id="portfolio">
+      <h1 class="text-center">Portfolio</h1>
+      <div
+        class="
+          portfolio-projects
+          d-flex
+          m-auto
+          flex-wrap
+          justify-content-center
+          p-2
+          w-100
+        "
+      >
+        <div class="project text-center">
+          <img src="./images/bootstrap.png" alt="" />
+          <h3 class="colored text-bold">This website</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+            aliquet mi urna, luctus congue eros pharetra a. Duis tempus luctus
+            blandit. Lorem ipsum dolor.
+          </p>
+          <div class="buttons mb-1">
+            <button>Code</button>
+            <button>Website</button>
+          </div>
+        </div>
+
+        <div class="project text-center">
+          <img src="./images/bootstrap.png" alt="" />
+          <h3 class="colored text-bold">This website</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+            aliquet mi urna, luctus congue eros pharetra a. Duis tempus luctus
+            blandit. Lorem ipsum dolor.
+          </p>
+          <div class="buttons mb-1">
+            <button>Code</button>
+            <button>Website</button>
+          </div>
+        </div>
+
+        <div class="project text-center">
+          <img src="./images/bootstrap.png" alt="" />
+          <h3 class="colored text-bold">This website</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+            aliquet mi urna, luctus congue eros pharetra a. Duis tempus luctus
+            blandit. Lorem ipsum dolor.
+          </p>
+          <div class="buttons mb-1">
+            <button>Code</button>
+            <button>Website</button>
+          </div>
+        </div>
+
+        <div class="project text-center">
+          <img src="./images/bootstrap.png" alt="" />
+          <h3 class="colored text-bold">This website</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+            aliquet mi urna, luctus congue eros pharetra a. Duis tempus luctus
+            blandit. Lorem ipsum dolor.
+          </p>
+          <div class="buttons mb-1">
+            <button>Code</button>
+            <button>Website</button>
+          </div>
+        </div>
+
+        <div class="project text-center">
+          <img src="./images/github.png" alt="" />
+          <h3 class="colored text-bold">Want more?</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+            aliquet mi urna, luctus congue eros pharetra a. Duis tempus luctus
+            blandit. Lorem ipsum dolor.
+          </p>
+          <div class="buttons mb-1">
+            <button>Github</button>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#228b22"
+          fill-opacity="1"
+          d="M0,96L30,122.7C60,149,120,203,180,213.3C240,224,300,192,360,160C420,128,480,96,540,74.7C600,53,660,43,720,37.3C780,32,840,32,900,69.3C960,107,1020,181,1080,208C1140,235,1200,213,1260,213.3C1320,213,1380,235,1410,245.3L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- END OF PORTFOLIO SECTION -->
+    <!-- CONNTACT SECTION -->
+    <section
+      id="conntact"
+      class="text-center text-bold"
+      style="margin-bottom: 0"
+      ;
+    >
+      <h1>Let's build something together!</h1>
+      <p class="mb-5">Fell free to conntact me</p>
+      <div class="web-dev-animation">
+        <img class="web-dev-img" src="./images/web-dev.png" alt="" />
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+      </div>
+      <p class="p-absolute" style="left: 0">Jakub Cabala</p>
+    </section>
+    <!-- END OF CONNTACT SECTION  -->
+  </body>
+</html>
