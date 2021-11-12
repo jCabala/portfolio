@@ -55,18 +55,16 @@
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
+            <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Work</a>
+            <a class="nav-link" href="#portfolio">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#conntact">Contact</a>
           </li>
         </ul>
       </div>
@@ -85,7 +83,8 @@
           <br />
           <br />Let's make something together!
         </p>
-        <button>My work</button>
+        <a href="#portfolio"><button>My work</button></a>
+        <button>My resume</button>
       </div>
     </section>
 
@@ -103,58 +102,95 @@
 
     <!-- END OF HOME -->
     <!-- ABOUT SECTION -->
-    <section id="about" class="mx-auto mb-5">
-      <h1 class="text-center colored"><strong>About</strong></h1>
-      <div class="about-me">
-        <div class="trait d-flex">
-          <img style="height: 15rem" src="./images/creative.png" alt="" />
-          <span class="ml-2 mt-5">
-            <h3>Creative</h3>
+    <section
+      id="about"
+      class="
+        d-flex
+        container
+        justify-content-center
+        flex-column
+        align-items-center
+      "
+    >
+      <h1 style="margin-top: 15vh">About</h1>
+      <div class="about-wrapper">
+        <nav>
+          <div class="nav nav-tabs mt-5" id="nav-tab" role="tablist">
+            <a
+              class="nav-item nav-link active"
+              id="nav-home-tab"
+              data-toggle="tab"
+              href="#nav-home"
+              role="tab"
+              aria-controls="nav-home"
+              aria-selected="true"
+              >Bio</a
+            >
+            <a
+              class="nav-item nav-link"
+              id="nav-profile-tab"
+              data-toggle="tab"
+              href="#nav-profile"
+              role="tab"
+              aria-controls="nav-profile"
+              aria-selected="false"
+              >Conntact</a
+            >
+            <a
+              class="nav-item nav-link"
+              id="nav-contact-tab"
+              data-toggle="tab"
+              href="#nav-contact"
+              role="tab"
+              aria-controls="nav-contact"
+              aria-selected="false"
+              >Resume</a
+            >
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="nav-home"
+            role="tabpanel"
+            aria-labelledby="nav-home-tab"
+          >
+            <h5 class="mt-3">
+              I am a web developer based in Szczawnica
+              <span>(realy small and unknown city)</span>, Poland
+            </h5>
+
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-              aliquet mi urna, luctus congue eros pharetra a. Duis tempus luctus
-              blandit. Lorem ipsum dolor.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac
+              varius quam, a venenatis arcu. Sed tincidunt, nunc vel accumsan
+              dignissim, orci mi dictum nunc, ac luctus velit nulla at dui.
+              Donec mattis ligula a malesuada ornare. Nulla sit amet enim eu
+              diam porttitor blandit. Donec magna dolor, feugiat eget sodales
+              at, porta sed nunc. Pellentesque id ligula lorem. Sed sollicitudin
+              nisl ac eros cursus auctor. Nunc suscipit diam metus, id varius
+              est condimentum id. In hac habitasse platea dictumst. In ut purus
+              aliquam, hendrerit leo sit amet, faucibus mi. In ultrices leo
+              vitae luctus commodo. Proin volutpat et libero a rhoncus. Sed sed
+              tellus gravida, ornare elit ac, auctor tellus. In hac habitasse
+              platea dictumst.
             </p>
-          </span>
-        </div>
-        <div class="trait d-flex">
-          <span class="ml-2 mt-5">
-            <h3>Responsive</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-              aliquet mi urna, luctus congue eros pharetra a. Duis tempus luctus
-              blandit. Lorem ipsum dolor.
-            </p>
-          </span>
-          <img style="height: 15rem" src="./images/mobile.png" alt="" />
-        </div>
-        <div class="trait d-flex">
-          <img style="height: 15rem" src="./images/fast.png" alt="" />
-          <span class="ml-2 mt-5">
-            <h3>Fast</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-              aliquet mi urna, luctus congue eros pharetra a. Duis tempus luctus
-              blandit. Lorem ipsum dolor.
-            </p>
-          </span>
-        </div>
-      </div>
-      <div class="stack text-center colored">
-        <h2 class="mb-2">My skills:</h2>
-        <div class="stack-items d-flex flex-wrap">
-          <img class="stack-img mt-1 ml-1" src="./images/bootstrap.png" />
-          <img class="stack-img mt-1 ml-1" src="./images/react.png" />
-          <img class="stack-img mt-1 ml-1" src="./images/js.png" />
-          <img class="stack-img mt-1 ml-1" src="./images/jquery.png" />
-          <img class="stack-img mt-1 ml-1" src="./images/html.png" />
-          <img class="stack-img mt-1 ml-1" src="./images/css.png" />
-          <img class="stack-img mt-1 ml-1" src="./images/sass.png" />
-          <img class="stack-img mt-1 ml-1" src="./images/node.png" />
-          <img class="stack-img mt-1 ml-1" src="./images/php.png" />
-          <img class="stack-img mt-1 ml-1" src="./images/sql.png" />
-          <img class="stack-img mt-1 ml-1" src="./images/mongo.png" />
-          <img class="stack-img mt-1 ml-1" src="./images/git.png" />
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-profile"
+            role="tabpanel"
+            aria-labelledby="nav-profile-tab"
+          >
+            ...
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-contact"
+            role="tabpanel"
+            aria-labelledby="nav-contact-tab"
+          >
+            <button class="about-button my-4">My resume</button>
+          </div>
         </div>
       </div>
     </section>
@@ -184,68 +220,82 @@
           <img src="./images/bootstrap.png" alt="" />
           <h3 class="colored text-bold">This website</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            aliquet mi urna, luctus congue eros pharetra a. Duis tempus luctus
-            blandit. Lorem ipsum dolor.
+            This portfolio website was coded using bootstrap. I believe that one
+            can create great projects with this framework only and I wanted to
+            present that here.
           </p>
           <div class="buttons mb-1">
             <button>Code</button>
-            <button>Website</button>
           </div>
         </div>
 
         <div class="project text-center">
-          <img src="./images/bootstrap.png" alt="" />
-          <h3 class="colored text-bold">This website</h3>
+          <img src="./images/calculator-project.png" alt="" />
+          <h3 class="colored text-bold">Calculator</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            aliquet mi urna, luctus congue eros pharetra a. Duis tempus luctus
-            blandit. Lorem ipsum dolor.
+            One project from freecodecamp required building the calculator with
+            a frontend library. I chose react. I also did this project using
+            functional components, while the freecodecamp's course still teaches
+            class components.
           </p>
           <div class="buttons mb-1">
-            <button>Code</button>
-            <button>Website</button>
+            <a href="https://codepen.io/kuba-cabaa/pen/QWgvKQv?editors=1010"
+              ><button>Code</button></a
+            >
           </div>
         </div>
 
         <div class="project text-center">
-          <img src="./images/bootstrap.png" alt="" />
-          <h3 class="colored text-bold">This website</h3>
+          <img src="./images/drum-project.png" alt="" />
+          <h3 class="colored text-bold">Drum Machine</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            aliquet mi urna, luctus congue eros pharetra a. Duis tempus luctus
-            blandit. Lorem ipsum dolor.
+            It is another freecodecamp, react project. As in the previous one, I
+            used functional components and hooks. The sounds can be played by
+            both clicking the buttons and keys on the keyboard.
           </p>
           <div class="buttons mb-1">
-            <button>Code</button>
-            <button>Website</button>
+            <a href="https://codepen.io/kuba-cabaa/pen/WNOjGjo"
+              ><button>Code</button></a
+            >
           </div>
         </div>
 
         <div class="project text-center">
-          <img src="./images/bootstrap.png" alt="" />
-          <h3 class="colored text-bold">This website</h3>
+          <img
+            src="./images/bbk-project.png"
+            style="
+              border-radius: 50%;
+              max-width: 15rem;
+              max-height: 15rem;
+              margin-bottom: 20%;
+            "
+            alt=""
+          />
+          <h3 class="colored text-bold">B.B.K POLSKA</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            aliquet mi urna, luctus congue eros pharetra a. Duis tempus luctus
-            blandit. Lorem ipsum dolor.
+            A website created for a civil engineering company using bootstrap.
+            When I receive the completed information about building sites from
+            the recent years, I will complete the website and host it. I give
+            the old website (not my job) for comparision.
           </p>
           <div class="buttons mb-1">
-            <button>Code</button>
-            <button>Website</button>
+            <a href="http://bbkpolska-pl.stackstaging.com/"
+              ><button>Website</button></a
+            >
+            <a href="http://www.bbkpolska.com/"><button>Old site</button></a>
           </div>
         </div>
 
         <div class="project text-center">
-          <img src="./images/github.png" alt="" />
-          <h3 class="colored text-bold">Want more?</h3>
+          <img src="./images/pomodoro-project.png" alt="" />
+          <h3 class="colored text-bold">Pomodoro timer</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            aliquet mi urna, luctus congue eros pharetra a. Duis tempus luctus
-            blandit. Lorem ipsum dolor.
+            Vanilla Js pomodoro timer. I created it to help me with managing my
+            time while studying.
           </p>
           <div class="buttons mb-1">
-            <button>Github</button>
+            <button>Code</button>
+            <a href="http://jcabalapomodoro-pl.stackstaging.com/"><button>Website</button></a>
           </div>
         </div>
       </div>
@@ -267,11 +317,14 @@
     >
       <h1>Let's build something together!</h1>
       <p class="mb-5">Fell free to conntact me</p>
+      <a href="mailto:kuba.cabala6@gmail.com"></a>
       <div class="web-dev-animation">
         <img class="web-dev-img" src="./images/web-dev.png" alt="" />
+  
         <div class="circle circle-1"></div>
         <div class="circle circle-2"></div>
       </div>
+    </a>
       <p class="p-absolute" style="left: 0">Jakub Cabala</p>
     </section>
     <!-- END OF CONNTACT SECTION  -->
